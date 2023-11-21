@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo keeper</title>
+</head>
+<body>
+    <h1>Zoo Keeper Application Form</h1>
+    <p><i>Please complete the form.Mandatory fields are marked with a </i>
+    <span style="color: red;">*</span></p>
+    <form>
+        <fieldset>
+            <legend>CONTACT DETAILS</legend><br><br>
+            <label>Name</label>
+            <span style="color: red;">*</span></p>
+            <input type="text"><br><br>
+            <label>Telephone</label>
+            <input type="number"><br><br>
+            <label>Email</label>
+            <span style="color: red;">*</span></p>
+            <input type="email"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend><br><br>
+            <label>Age</label><span style="color: red;">*</span></p>
+            <input type="number"><br><br>
+            <label for="gender">Gender:</label>
+<select id="gender" name="gender">
+  <option value=""select>select</option>
+  <option value="male">male</option>
+  <option value="female">female</option>
+</select><br><br>
+<div style="display: flex; align-items: flex-start;">
+    <div>
+      <p>When did you first<br>know you wanted<br>to be a<br>zoo-keeper?</p>
+    </div>
+   <textarea style="width: 300px; height: 150px; border: 1px solid black; overflow-y: scroll;"></textarea>
+
+
+    
+     
+  </div>      
+        </fieldset>
+        <fieldset>
+        <legend>PICK YOUR FAVORITE ANIMAL</legend>
+        <input type="checkbox" name="Zebra">Zebra
+        <input type="checkbox" name="cat">cat
+        <input type="checkbox" name="Anaconda">Ana1210conda
+        <input type="checkbox" name="Human">Human
+        <input type="checkbox" name="Elephant">Elephant
+        <input type="checkbox" name="Wildebeest">Wildebeest
+        <input type="checkbox" name="Pigeon">Pigeon
+        <input type="checkbox" name="Crab">crab
+        </fieldset>
+        <button type="button" value="Submit Application">Submit Application</button>
+    </form>
+</body>
+</html>
